@@ -1,0 +1,97 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(7, 30px);
+  grid-template-rows: repeat(12, 30px);
+}
+
+.dark-blue {
+  background-color: #338FF0;
+}
+
+.light-blue {
+  background-color: #2EEDF8;
+}
+
+.yellow {
+  background-color: #FBEA28;
+}
+
+.pink {
+  background-color: #F62579;
+}
+
+.green {
+  background-color: #95EE35;
+}
+
+.orange {
+  background-color: #F66E2D;
+}
+
+.shape-1 {
+  grid-row: 1 / span 4;
+  grid-column: 1;
+}
+
+.shape-2 {
+  grid-row: 1 / span 3;
+  grid-column: 2 / span 2;
+}
+
+.shape-3 {
+  grid-row: 1;
+  grid-column: 4 / span 4;
+}
+
+.shape-4 {
+  grid-row: 2 / span 3;
+  grid-column: 3 / span 1;
+}
+
+.shape-4-2 {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.shape-5 {
+  grid-row: 2 / span 2;
+  grid-column: 4 / span 3;
+  z-index: -1;
+}
+
+.shape-6 {
+  grid-row: 2 / span 3;
+  grid-column: 7;
+  z-index: -2;
+}
+
+.shape-6-2 {
+  grid-row: 3;
+  grid-column: 6;
+}
+
+.shape-7 {
+  grid-row: 4 / span 3;
+  grid-column: 1 / span 2;
+  z-index: -1;
+}
+
+.shape-8 {
+  grid-row: 5 / span 2;
+  grid-column: 3 / span 3;
+}
+
+.shape-9 {
+  grid-row: 4 / span 2;
+  grid-column: 4 / span 2;
+}
+
+.shape-10 {
+  grid-row: 5 / span 2;
+  grid-column: 6 / span 2;
+}
+
+.shape-10-2 {
+  grid-row: 4;
+  grid-column: 6;
+}
